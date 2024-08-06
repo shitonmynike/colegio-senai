@@ -1,0 +1,15 @@
+{ 
+    "edital1": {
+        "id" : 2,
+        "item1" : {
+            "infos" : "asdsdasdasasda",
+            "compradores" : {
+                "comprador1" : "jonas" ,
+                "comprador2" : "joao" ,
+                "comprador3" : "joao" 
+            }
+        } 
+        
+}
+}
+
