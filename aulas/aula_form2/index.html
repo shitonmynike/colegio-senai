@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            display: auto;
+        }
+        .form_container{
+            width: 60%;
+            margin: auto;
+        }
+        .form_group{
+            margin-bottom: 10px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="form_container">
+        <h3>formularios com labels</h3>
+        <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
+            <div class="form_group">
+                <label for="">Nome:</label><br/>
+                <input type="text" name="campo_texto" required>
+            </div>
+
+
+            <div class="form_group">
+                <label for="">Senha:</label><br/>
+                <input type="password" name="campo_senha" required>
+            </div>
+
+            <div class="form_group">
+                <input type="submit" value="Enviar" />
+
+            </div>
+
+
+
+        </form>
+
+
+    </div>
+</body>
+</html>
