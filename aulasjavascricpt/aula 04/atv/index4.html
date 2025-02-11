@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var numero
+        while(true){
+            numero = Number(prompt("Escreva um número inteiro: "));
+            
+            if(!isNaN(numero) && Number.isInteger(numero)){
+                break;
+            } else {
+                alert("Número Invalido!");
+            }
+
+        }
+        console.log(numero);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
