@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Mostrar(){
+            var idade = document.getElementById("idadeID").value;
+            var anos = 65 - idade;
+
+            if(idade >= 65){
+                alert("Já pode se aposentar");
+            }else{
+                alert("Você vai se aposentar em " + anos + " anos.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <label>Digite sua idade: </label>
+    <input type="number" id="idadeID" />
+    <button onclick="Mostrar()">Exibir</button>
+</body>
+</html>
