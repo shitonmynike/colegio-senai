@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Mostrar(){
+            var um = Number(document.getElementById("id1").value);
+            var dois = Number(document.getElementById("id2").value);
+            var sinal = document.getElementById("sinalID").value;
+
+            switch(sinal){
+                case "==":
+                if(um == dois){
+                    alert("VERDADEIRO");
+                }else{
+                    alert("FALSO");
+                }
+                break;
+
+                case "!=":
+                if(um != dois){
+                    alert("VERDADEIRO");
+                }else{
+                    alert("FALSO");
+                }
+                break;
+
+                case ">":
+                if(um > dois){
+                    alert("VERDADEIRO");
+                }else{
+                    alert("FALSO");
+                }
+                break;
+
+                case ">=":
+                if(um >= dois){
+                    alert("VERDADEIRO");
+                }else{
+                    alert("FALSO");
+                }
+                break;
+
+                case "<":
+                if(um < dois){
+                    alert("VERDADEIRO");
+                }else{
+                    alert("FALSO");
+                }
+                break;
+
+                case "<=":
+                if(um <= dois){
+                    alert("VERDADEIRO")
+                }else{
+                    alert("FALSO");
+                }
+                break;
+
+                default:
+                alert("FALSO")
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <input type="number" id="id1"> 
+    <select id="sinalID"> 
+        <option>==</option>
+        <option>!=</option>
+        <option>></option>
+        <option>>=</option>
+        <option><</option>
+        <option><=</option>
+    </select>
+    <input type="number" id="id2"> 
+    <button onclick="Mostrar()">Exibir</button>
+</body>
+</html>
